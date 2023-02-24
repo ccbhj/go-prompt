@@ -7,6 +7,7 @@ type LexerFunc = func(line string) []LexerElement
 type LexerElement struct {
 	Color Color
 	Text  string
+	Bold  bool
 }
 
 // Lexer is a struct with lexer param and function.
